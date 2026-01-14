@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "CubeInputActions",
+    "maps": [
+        {
+            "name": "CubeInteraction",
+            "id": "8ca22607-6614-4238-92ca-d629bb59dce7",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "24bd51a3-2ddf-490a-adef-4ac49f803f65",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dabe530b-a5ca-43f8-93ef-2908ed4548de",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5efb20f1-946a-4a60-9395-801db4396380",
+                    "path": "<XRController>/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
